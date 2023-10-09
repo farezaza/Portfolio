@@ -1,0 +1,79 @@
+.topnav{
+    position: sticky;
+    top: 0%;
+    overflow: hidden;
+    background-color: rgb(26, 28, 41);
+}
+.topnav a{
+    color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    padding: 14px 16px;;
+    text-decoration: none;
+    font-size: 22px;
+    
+}
+.topnav a.login{
+    float: right;
+}
+.Portfolio{
+    font-weight: bold;
+    background-color: rgb(64, 196, 145);
+    color: white;
+}
+.navigator a {
+    color: rgb(255, 255, 255);
+}
+.navigator a:hover {
+    background-color: rgb(62, 153, 118);
+    border: rgb(62, 153, 118);
+    color: rgb(255, 255, 255);
+    padding-bottom: 16px;
+}
+.topnav a.login:hover{
+    background-color: rgb(177, 169, 61);
+}
+body{
+    margin: 0;
+    font-family: Caviar Dreams;
+    font-size: 22px;
+    background-color: #d9d9ec;
+}
+#errormsg{
+    color: red;
+}
+form{
+    padding: 64px;
+    padding-top: 32px;
+    padding-right: 512px;
+}
+legend{
+    padding: 10px;
+    font-size: 28px;;
+    text-align: left;
+    background-color: rgb(64, 196, 145);
+    color: white;
+    grid-column: 1 / span 3;
+}
+#button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: rgb(26, 28, 41);
+    color: white;
+    border: none;
+}
+#button:hover{
+    background-color: rgb(66, 148, 100);
+}
+@media only screen and (max-width: 720px){
+    .topnav a{
+        font-size: 20px;    
+    } 
+    legend{
+        text-align: center;
+    }  
+}

@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(194, 255, 232);
+    font-family: Caviar Dreams;
+    font-size: 28px;
+}
+legend{
+    text-align: center;
+    font-size: 36px;
+    padding: 12px;
+    color: white;
+    background-color: rgb(26, 28, 41);
+}
+#container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    
+    border: 3px solid black;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+}
+
+.maroon{
+    background-color: maroon; 
+}
+.lightgreen{
+    background-color: lightgreen; 
+}
+
+.magenta{
+    background-color: magenta; 
+}
+
+fieldset{
+    background-color: white;
+}

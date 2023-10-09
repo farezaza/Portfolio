@@ -1,0 +1,205 @@
+a:visited{
+	color: rgb(64, 196, 145);
+} 
+a:hover{
+    color: white; 
+}
+.topnav{
+    position: sticky;
+    top: 0%;
+    overflow: hidden;
+    background-color: rgb(26, 28, 41);
+}
+.topnav a{
+    color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    padding: 14px 16px;;
+    text-decoration: none;
+    font-size: 22px;
+    
+}
+.topnav a.login{
+    float: right;
+}
+.topnav a#login{
+    display: none;
+}
+.topnav a.login:hover{
+    background-color: rgb(177, 169, 61);
+}
+.Portfolio{
+    font-weight: bold;
+    background-color: rgb(64, 196, 145);
+    color: white;
+}
+.navigator a {
+    color: rgb(255, 255, 255);
+}
+.navigator a:hover {
+    background-color: rgb(62, 153, 118);
+    color: rgb(255, 255, 255);
+    padding-bottom: 16px;
+}
+#topic{
+    padding: 20px;
+    margin: 256px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: rgb(181, 186, 196);
+}
+h1{
+    background-color: rgb(206, 211, 221);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-left: 16px;
+}
+li{
+    font-size: 22px;
+}
+.profile-image{
+    text-align: center;
+}
+.content-grid{
+    margin: 256px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: rgb(181, 186, 196);
+    display: grid;
+    grid-template-columns: 50% auto;
+    
+}
+body{
+    margin: 0;
+    bottom: 0%;
+    font-family: Caviar Dreams;
+    background-color: #d9d9ec;
+    
+}
+#Portrait{
+    width: 200px;
+}
+#information{
+    display: grid;
+    grid-template-columns: 50% auto;
+    text-align: left;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+#contact{
+    text-decoration: none;
+    font-weight: bold;
+}
+.buttombar{
+    position: fixed;
+    bottom: 0%;
+    width: 100%; 
+    background-color: rgb(26, 28, 41);
+    color: white;
+    font-weight: lighter;
+    text-align: right;
+    font-size: 18px;
+}
+.buttombar a{
+    padding-right: 16px;
+}
+.homeworkButton{
+    padding: 24px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    font-size: 24px;
+    text-decoration: none;
+}
+a.homeworkButton{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(64, 196, 145);
+    background-color: rgb(26, 28, 41);
+    text-align: center;
+}
+a.homeworkButton:hover{
+    color: white;
+    background-color: rgb(65, 155, 117);
+}
+#list{
+    
+    text-align: left;
+    padding: 20px;
+    padding-left: 256px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: rgb(181, 186, 196);
+}
+.container{
+    text-align: center;
+}
+.mySlides{
+    text-align: center;
+}
+.arttext{
+    font-size: 24px;
+    color: white;
+    padding: 24px;
+    background-color: rgb(26, 28, 41);
+}
+@media only screen and (max-width: 1580px){
+    .content-grid{
+        margin: 128px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+}
+@media only screen and (max-width: 1080px){
+    #topic{
+        margin: 32px;
+    }
+    .content-grid{
+        margin: 32px;
+        grid-template-columns: 100%;
+    }
+    .topnav a{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 20px;    
+    }
+    .topnav a#login{
+        float: right;
+        display: block;
+    }
+    .topnav a#login:hover{
+        background-color: rgb(177, 169, 61);
+    }
+    .topnav a.login{
+        display: none;
+    }
+    li{
+        font-size: 16px;
+    }
+    .homeworkButton{
+        margin: 10px;
+        margin-top: 30px;
+        margin-bottom: 3px;
+        font-size: 22px;
+    }
+    a.homeworkButton{
+        margin: 0px;
+    }
+   .buttombar{
+        font-size: 14px;
+    }
+   #list{
+        padding-left: 32px;
+    }
+   #wasteland{
+    scale: 50%;
+    }
+    #beach{
+    scale: 30%;
+    }
+    #concept{
+    scale: 15%;
+    }
+    
+}

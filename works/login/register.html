@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title> Register to myFolio </title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	<script src='register.js'></script>
+</head>
+<nav class="topnav">
+    <a class="Portfolio">PORTFOLIO</a>
+    <nav class="navigator">
+        <a href="/portfolio.html" class= "Navibutton">About Me</a>
+        <a href="/myworks.html" class= "Navibutton">My Works</a>
+    </nav>
+</nav>
+<br>
+<body>
+	<form name="myForm" id="myForm" action="login.html">
+		<fieldset>
+			<legend>Register to myFolio</legend>
+			<span>*required</span> <br>
+			
+			Name*: 
+			<input type="text" name="name" required>
+			<br>
+			Gender*: 
+			<input type="radio" name="gender" value="male" >Male
+			<input type="radio" name="gender" value="female" required	>Female
+			<input type="radio" name="gender" value="female" >Attack Helicopter
+			<br>
+			Birthday*: 
+			<input type="date" name="bday" value="" required>
+			<br>
+			Email address*: 
+			<input type="email" name="email" required>
+			<br>
+			Username*: 
+			<input type="text" name="username" required>
+			<br>
+			Password*: 
+			<input type="password" name="password" required>
+			<br>			Confirm Password*: 
+			<input type="password" name="password" required>
+			<br>
+			<span id="errormsg"></span> <br>
+			<input id="button" type="submit" value="Register">
+			<input id="button" type="reset" value="Reset">
+			<br><br>
+			<a id="button" href="login.html">Already registered? Login</a>
+		</fieldset>
+	</form>
+</body>
+</html>

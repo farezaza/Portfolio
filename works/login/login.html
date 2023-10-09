@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title> Login to myFolio </title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	<script src='login.js'></script>
+</head>
+<nav class="topnav">
+    <a class="Portfolio">PORTFOLIO</a>
+    <nav class="navigator">
+        <a href="/portfolio.html" class= "Navibutton">About Me</a>
+        <a href="/myworks.html" class= "Navibutton">My Works</a>
+    </nav>
+</nav>
+<body>
+	<form name="myLogin" id = "myLogin">
+		<fieldset>
+			<legend>Welcome back to myFolio!</legend>
+			<span id="errormsg"></span> <br>
+			GubHit Username: 
+			<input type="text" name="username" id="username" required>
+			<br>
+			Password: 
+			<input type="password" name="password" required>
+			<br>
+			<br>
+			<input id="button" type="submit" value="Login">
+			<input id="button" type="reset" value="Clear">
+			<br><br>
+			<a id="button" href="register.html">Not Registered? Sign In</a>
+		</fieldset>
+	</form>
+</body>
+</html>
