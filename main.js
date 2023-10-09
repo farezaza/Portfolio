@@ -27,14 +27,14 @@ function workLink(){
     location.href = "myworks.html";
 }
 function chickenlink(){
-    location.href = "/works/chicken/recipe.html";
+    location.href = "works/chicken/recipe.html";
 }
 function blogLink(){
-    location.href = "/works/blogger/index.html";
+    location.href = "works/blogger/index.html";
 }
 function registerLink(){
-    location.href = "/works/login/register.html";
+    location.href = "works/login/register.html";
 }
 function squareLink(){
-    location.href = "/works/squaregame/index.html";
+    location.href = "works/squaregame/index.html";
 }
