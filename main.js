@@ -21,7 +21,7 @@ function pageLoad()
 
 }
 function portLink(){
-    location.href = "/portfolio.html";
+    location.href = "/index.html";
 }
 function workLink(){
     location.href = "/myworks.html";
