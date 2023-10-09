@@ -21,10 +21,10 @@ function pageLoad()
 
 }
 function portLink(){
-    location.href = "/index.html";
+    location.href = "index.html";
 }
 function workLink(){
-    location.href = "/myworks.html";
+    location.href = "myworks.html";
 }
 function chickenlink(){
     location.href = "/works/chicken/recipe.html";
